@@ -13,3 +13,9 @@ Question 1: Maximum Difference in Increasing Elements
 
 4. Update minElement to the minimum of its current value and nums[i]
 5. return maxDiff
+
+
+fun main(){
+val nums1 = intArrayOf(2,56,3,4,29,890)
+    println(maximumDifference(nums1))
+}
