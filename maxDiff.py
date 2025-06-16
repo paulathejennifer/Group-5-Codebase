@@ -7,7 +7,7 @@ def maxDiff(arr){
         for j in range (i + 1, n):
             if arr[j] > arr[i]:
 
-#                 ans = max(ans, arr[j] - arr[i])
+                ans = max(ans, arr[j] - arr[i])
 # }
 
 #     return ans
