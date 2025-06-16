@@ -10,6 +10,6 @@ def maxDiff(arr){
                 ans = max(ans, arr[j] - arr[i])
 }
 
-#     return ans
+    return ans
 
 
