@@ -19,3 +19,6 @@ fun main(){
 val nums1 = intArrayOf(2,56,3,4,29,890)
     println(maximumDifference(nums1))
 }
+
+fun maximumDifference(nums: IntArray): Int{
+    var maxDiff = -1
