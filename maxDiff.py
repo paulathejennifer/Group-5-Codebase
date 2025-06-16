@@ -1,5 +1,5 @@
 def maxDiff(arr){
-#     n = len(arr)
+    n = len(arr)
 
 #     ans = -1
 
