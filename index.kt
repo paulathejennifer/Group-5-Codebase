@@ -22,3 +22,4 @@ val nums1 = intArrayOf(2,56,3,4,29,890)
 
 fun maximumDifference(nums: IntArray): Int{
     var maxDiff = -1
+    var minElement = nums[0]
