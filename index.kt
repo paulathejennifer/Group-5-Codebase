@@ -30,3 +30,7 @@ fun maximumDifference(nums: IntArray): Int{
             maxDiff = maxOf(maxDiff, nums[i] - minElement)
         }
         minElement = minOf(minElement, nums[i])
+
+    }
+return maxDiff
+}
