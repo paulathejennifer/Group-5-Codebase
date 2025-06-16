@@ -8,7 +8,7 @@ def maxDiff(arr){
             if arr[j] > arr[i]:
 
                 ans = max(ans, arr[j] - arr[i])
-# }
+}
 
 #     return ans
 
