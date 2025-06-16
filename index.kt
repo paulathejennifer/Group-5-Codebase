@@ -29,3 +29,4 @@ fun maximumDifference(nums: IntArray): Int{
         if (nums[i] > minElement){
             maxDiff = maxOf(maxDiff, nums[i] - minElement)
         }
+        minElement = minOf(minElement, nums[i])
